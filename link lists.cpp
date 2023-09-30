@@ -1,6 +1,7 @@
 //linked lists
 #include<iostream>
 using namespace std;
+//this is link list
 
 class node{
 public:
