@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .main{
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        width: 90vw;
+        background-color: rgb(242, 243, 243);
+        
+    }
+    .booklist{
+        height: 47vh;
+        width: 31%;
+    
+        background-color: rgb(255, 255, 255);
+        border: 1px solid black;
+    }
+    @media only screen and (max-width:600px) {
+        .main{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        width: 99vw;
+    
+        background-color: rgb(242, 243, 243);
+        
+    }
+    .booklist{
+        height: 60%;
+        width: 99%;
+        margin-top: 10%;
+        background-color: rgb(252, 252, 252);
+        border: 1px solid black;
+    }
+    }
+    
+</style>
+<body>
+    <h1>OLMS</h1>
+    <div class="main">
+        <div class="booklist">
+            <h3>Book List :</h3>
+            <p>
+                <ol>
+                 <li>Beloved <br>
+                    Author : Toni Morrison <br>
+                ISBN : 100-969-55 </li> 
+            </p>
+            
+            <p>
+            
+                    <li>The Atomic Habits <br>
+                    Author : James Clear <br>
+                ISBN : 305-607-99 </li> 
+            
+            </p>
+            <p>
+                <li>To Kill A Mockingbird <br>
+                    Author : Harper Lee <br>
+                ISBN : 898-349-32 </li> 
+            
+            </p>
+                </ol>
+                    
+
+        </div>
+        <div class="booklist">
+            <h3>Add New Book :</h3>
+            <form action="">
+                <input type="text" placeholder="Title" id="title"><br><br>
+                <input type="text" placeholder="Author" id="author"><br><br>
+                <input type="number" placeholder="ISBN" id="isbn"><br><br>
+                <p id="eorn"></p>
+                <button type="button" id="butt" onclick="fun()"><b>Add</b></button>
+                
+            </form>
+
+        </div>
+        <div class="booklist">
+            <h3>Search Book :</h3>
+            <input type="text" placeholder="Enter A Book Name" id="bn">
+            <p id="st"></p>
+            <button type="button" id="sbutt" onclick="search()"><b>Search</b></button>
+
+        </div>
+    </div>
+    <script>
+        let isbn=[100,300,200];
+        function fun(){
+            let title=["Beloved","The Atomic Habits","To Kill A Mockingbird"];
+            
+            let r;
+            let t=false;
+            let x=document.getElementById('isbn').value;
+            for(let i=0;i<isbn.length;i++){
+                if(x==isbn[i]){
+                    document.getElementById('eorn').innerHTML="Already Available";
+                    t=false;
+                    break;
+                }
+                else{
+                    t=true;
+    
+                }
+    
+            }
+            if(t==true){
+                //isbn.length=isbn.lenght++;
+               // r=isbn.length;
+                isbn.push(x);
+                document.getElementById('eorn').innerHTML=" Book Added To Shelf " ;
+            }
+             
+    
+        }
+        function search(){
+            let title=["Beloved","The Atomic Habits","To Kill A Mockingbird"];
+            let v=document.getElementById('bn').value;
+            switch(v){
+                case "Beloved":
+                    document.getElementById('st').innerHTML="Title : Beloved  Author : Toni Morrison  ISBN : 100-969-55";
+                break;
+                
+                case "The Atomic Habits":
+                    document.getElementById('st').innerHTML="Title : The Atomic Habits  Author : James Clear  ISBN : 305-607-99";
+    
+                break;
+                case "To Kill A Mockingbird":
+                    document.getElementById('st').innerHTML="Title : To Kill A Mockingbird   Author: Harper Lee ISBN : 898-349-32";
+                break;
+                
+                
+                }
+    
+        }
+    </script>  
+</body>
+</html>
