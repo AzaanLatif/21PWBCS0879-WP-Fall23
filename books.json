@@ -1,0 +1,163 @@
+[
+	{
+	  "id": 1,
+	  "title": "Dark Is The Grave",
+	  "author": "TG. Reid",
+	  "category": "Dark Crime",
+	  "price": 19.99,
+	  "cover_image": "photos/dc1.jpg"
+	},
+	{
+	  "id": 2,
+	  "title": "The Guns Of August",
+	  "author": "Barbara W.Tushman",
+	  "category": "History",
+	  "price": 16.99,
+	  "cover_image": "photos/h1.jpeg"
+	},
+	{
+	  "id": 3,
+	  "title": "Mind Hunter",
+	  "author": "John Douglas",
+	  "category": "Dark Crime",
+	  "price": 28.50,
+	  "cover_image": "photos/dc4.jpg"
+	},
+	{
+	  "id": 4,
+	  "title": "The Dark Flood",
+	  "author": "Deon Meyer",
+	  "category": "Dark Crime",
+	  "price": 11.50,  
+	  "cover_image": "photos/dc2.jpg"
+
+	},
+	{
+	  "id": 5,
+	  "title": "Catch 22",
+	  "author": "Joseph Heller",
+	  "category": "Fiction",
+	  "price": 20.45,
+	  "cover_image": "photos/f1.jpeg"
+	},
+	{
+	  "id": 6,
+	  "title": "A Game Of Thrones",
+	  "author": "George R.R Martin",
+	  "category": "Fantasy",
+	  "price": 29.99,
+	  "cover_image": "photos/ft1.jpeg"
+	},
+	{
+	  "id": 7,
+	  "title": "Dark Justice",
+	  "author": "Robert J.Sheldon",
+	  "category": "Dark Crime",
+	  "price": 15.00,
+	  "cover_image": "photos/dc3.jpg"
+	},
+	{
+	  "id": 8,
+	  "title": "Genghis Khan & Modern World",
+	  "author": "Jack Weatherford",
+	  "category": "History",
+	  "price": 15.99,
+	  "cover_image": "photos/h2.jpeg"
+	},
+	{
+	  "id": 9,
+	  "title": "The Hobbit",
+	  "author": "J.R.R. Tolkien",
+	  "category": "Fantasy",
+	  "price": 17.75,
+	  "cover_image": "photos/ft4.jpeg"
+	},
+	{
+	  "id": 10,
+	  "title": "The True Crime File",
+	  "author": "Kim Daly",
+	  "category": "Dark Crime",
+	  "price": 15.55,
+	  "cover_image": "photos/dc5.webp"
+	},
+	{
+	  "id": 11,
+	  "title": "The Alchemist",
+	  "author": "Paulo Coelho",
+	  "category": "Fiction",
+	  "price": 19.50,
+	  "cover_image": "photos/f2.jpeg"
+	},
+	{
+	  "id": 12,
+	  "title": " Devil In The City",
+	  "author": "Erik Larson",
+	  "category": "History",
+	  "price": 17.5,
+	  "cover_image": "photos/h3.jpeg"
+	},
+	{
+	  "id": 13,
+	  "title": "The Way Of Kings",
+	  "author": "Brandon Sanderson",
+	  "category": "Fantasy",
+	  "price": 6.99,
+	  "cover_image": "photos/ft2.jpeg"
+	},
+	{
+	  "id": 14,
+	  "title": "The Bell Jar",
+	  "author": "Sylvia Plath",
+	  "category": "Fiction",
+	  "price": 11.99,
+	  "cover_image": "photos/f3.jpeg"
+	},
+	{
+	  "id": 15,
+	  "title": "The Name Of The Wind",
+	  "author": "Patrick Rothfuss",
+	  "category": "Fantasy",
+	  "price": 11.99,
+	  "cover_image": "photos/ft3.jpeg"
+	},
+	{
+	  "id": 16,
+	  "title": "The Three Musketeers",
+	  "author": "Alexandre Dumas",
+	  "category": "Adventure",
+	  "price": 11.50,
+	  "cover_image": "photos/a1.jpeg"
+	},
+	{
+	  "id": 17,
+	  "title": "Kidnapped",
+	  "author": "Robert L.Steveson",
+	  "category": "Adventure",
+	  "price": 15.65,
+	  "cover_image": "photos/a2.jpeg"
+	},
+	{
+	  "id": 18,
+	  "title": "Dune",
+	  "author": "Frank Herbert",
+	  "category": "Adventure",
+	  "price": 10.25,
+	  "cover_image": "photos/a3.jpeg"
+	},
+	{
+	  "id": 19,
+	  "title": "Pet Sematary",
+	  "author": "Stephen King",
+	  "category": "Horror",
+	  "price": 22.50,
+	  "cover_image": "photos/horror1.jpeg"
+	},
+	{
+	  "id": 20,
+	  "title": "Come Closer",
+	  "author": "Sara Gran",
+	  "category": "Horror",
+	  "price": 25.52,
+	  "cover_image": "photos/horror2.jpeg"
+	}
+  ]
